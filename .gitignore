@@ -1,0 +1,19 @@
+# Environments
+.venv/
+venv/
+env/
+
+# Secrets
+.env
+
+# Python junk
+__pycache__/
+*.pyc
+
+# Databases
+*.sqlite3
+
+# OS files
+.DS_Store
+
+notes.md
