@@ -92,6 +92,7 @@ def update_book(book_id:int,book_update:Book_update):
 # DELETE METHOD:
 #  finding the book with the help of id and deleting, we dont need class here as it is not pydantic
 
+# this is path parameter:
 @app.delete("/book/{book_id}")
 # remeber that you have to pass inside the following function
 def delete_book(book_id:int):
